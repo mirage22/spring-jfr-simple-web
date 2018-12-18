@@ -1,0 +1,21 @@
+plugins {
+    id 'java-library'
+}
+
+group 'com.mirowengner.example.jfr'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 11
+
+repositories {
+    mavenCentral()
+    mavenLocal()
+}
+
+dependencies {
+    compile "org.springframework.boot:spring-boot:2.1.1.RELEASE"
+    compile "org.springframework.boot:spring-boot-starter-web:2.1.1.RELEASE"
+    compile "io.opentracing.contrib:opentracing-jfr-tracer:0.0.4-SNAPSHOT"
+    compile "io.opentracing.contrib:opentracing-jfr-tracer-spring-autoconfigure:0.0.4-SNAPSHOT"
+    compile "io.opentracing.contrib:opentracing-spring-jaeger-cloud-starter:1.0.1"
+}

@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: "spring-jfr-simple-web"
+server:
+  port: 8080
+
+opentracing:
+  jfr-tracer:
+    enabled: true
+  jaeger:
+    udp-sender:
+      host: "localhost"
+      port: 6831
