@@ -15,6 +15,13 @@ dependencies {
     ***
 }
 ```
+To enable zipkin tracer it's necessary to uncomment add
+```groovy
+compile "io.opentracing.contrib:opentracing-spring-zipkin-cloud-starter:0.2.0"
+```
+into the **gradle.build** dependencies and comment out jaeger tracer. 
+
+Both **Tracer** are using spring-cloud implementations with default auto-configure feature.
 
 
 ### OpenJDK Mission Control / Flight Recorder
