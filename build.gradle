@@ -1,6 +1,20 @@
+buildscript {
+    repositories {
+        mavenLocal()
+        mavenCentral()
+        jcenter()
+    }
+    dependencies {
+        classpath "org.springframework.boot:spring-boot-gradle-plugin:2.1.1.RELEASE"
+    }
+}
+
 plugins {
     id 'java-library'
 }
+
+apply plugin: 'org.springframework.boot'
+apply plugin: 'io.spring.dependency-management'
 
 group 'com.mirowengner.example.jfr'
 version '1.0-SNAPSHOT'
@@ -10,6 +24,7 @@ sourceCompatibility = 11
 repositories {
     mavenCentral()
     mavenLocal()
+    jcenter()
 }
 
 dependencies {

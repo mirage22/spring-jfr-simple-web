@@ -23,9 +23,13 @@ To disable jfr-tracer set property
 ```bash
 opentracing.jfr-tracer.enabled=false
 ```
-
 ### Java Versions
 project may run on Oracle JDK 8+ (except Oracle JDK 9 and 10) and OpenJDK 11+.
+
+### Running application 
+```bash
+$ ./gradlew bootRun
+```
 
 ### References
 * [opentracing:java-jfr-tracer](https://github.com/opentracing-contrib/java-jfr-tracer)  
