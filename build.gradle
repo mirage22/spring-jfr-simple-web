@@ -33,4 +33,5 @@ dependencies {
     compile "io.opentracing.contrib:opentracing-jfr-tracer:0.0.4-SNAPSHOT"
     compile "io.opentracing.contrib:opentracing-jfr-tracer-spring-autoconfigure:0.0.4-SNAPSHOT"
     compile "io.opentracing.contrib:opentracing-spring-jaeger-cloud-starter:1.0.1"
+//    compile "io.opentracing.contrib:opentracing-spring-zipkin-cloud-starter:0.2.0"
 }
