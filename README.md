@@ -1,5 +1,4 @@
 ## Spring JFR simple web 
-[UNDER CONSTRUCTION]
 
 **spring-jfr-simple-web** is a simple spring boot rest application that shows how to use opentracing 
 **java-jfr-tracer**  together with spring cloud libraries. The Application Tracer is automatically by default setup. 
